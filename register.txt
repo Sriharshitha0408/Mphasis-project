@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="nav.js"></script>
+</head>
+<body>
+
+ 
+
+    <div class="container jumbo">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+       <div class="container">
+  <h2> REGISTER FORM</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name"> FIRST NAME:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" placeholder="Enter first name" name="name">
+      </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="name"> LAST NAME:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Enter last name" name="name">
+        </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">E-mail:</label>
+      <div class="col-sm-10">          
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="phone">PHONE NUMBER:</label>
+      <div class="col-sm-10">          
+    
+		<input type="number" class="form-control" placeholder="Enter your phone number" rows="5" id="DOB">
+      </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="user name">USER NAME :</label>
+        <div class="col-sm-10">          
+      
+          <input type="text" class="form-control" placeholder="Enter your username" rows="5" id="username">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="phone">PASSWORD:</label>
+        <div class="col-sm-10">          
+      
+          <input type="password" class="form-control" placeholder="Enter your password" rows="5" id="password">
+        </div>
+      </div>
+    
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="DOB">DATE OF BIRTH:</label>
+        <div class="col-sm-10">          
+      
+          <input type="date" class="form-control" placeholder="Enter your DOB" rows="5" id="DOB">
+        </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="DOB">Gender:</label>
+            <div class="col-sm-10">    
+        
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+             
+       
+   
+    <div class="form-group">   
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Register</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
